@@ -20,7 +20,7 @@ mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true ,useFindA
 
 const app = express();
 // var corsOptions = {
-//     origin: 'http://localhost:3000',
+//     origin: ['http://localhost:3000','http://localhost:3001'],
 //     credentials:  true
 //   }
 

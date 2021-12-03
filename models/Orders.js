@@ -15,14 +15,20 @@ const OrderSchema=new mongoose.Schema({
     lastName:{
             type:String
     },
-    tablename:{
+    title:{
             type:String
     },
     status:{
         type:String
     },
+    payment:{
+        type:String
+    },
     totalamount:{
         type:Number
+    },
+    type:{
+        type:String
     },
     createdAt:
     {
