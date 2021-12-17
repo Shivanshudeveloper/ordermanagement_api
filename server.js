@@ -25,7 +25,7 @@ const app = express();
 //   }
 
 var corsOptions = {
-  origin: 'https://ordermanagement.vercel.app',
+  origin: ['https://ordermanagement.vercel.app','https://ordermanagementadmin.vercel.app'],
   credentials:  true
 }
   
